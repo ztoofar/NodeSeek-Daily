@@ -1,4 +1,9 @@
 # -- coding: utf-8 --
+"""
+Copyright (c) 2024 [Hosea]
+Licensed under the MIT License.
+See LICENSE file in the project root for full license information.
+"""
 import os
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
