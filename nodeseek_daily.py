@@ -172,7 +172,7 @@ def nodeseek_comment(driver):
         
         # 过滤掉置顶帖
         valid_posts = [post for post in posts if not post.find_elements(By.CSS_SELECTOR, '.pined')]
-        selected_posts = random.sample(valid_posts, min(10, len(valid_posts)))
+        selected_posts = random.sample(valid_posts, min(20, len(valid_posts)))
         
         # 存储已选择的帖子URL
         selected_urls = []
